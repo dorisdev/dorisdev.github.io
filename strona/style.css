@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+section.main-pic {
+    height: 555px;
+    background-image: url('assets/img/baner.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.container {
+    padding: 0 15px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.container h1 {
+    font-size: 90pt;
+    text-transform: uppercase;
+}
+
+.container p {
+    display: flex;
+    font-size: 24px;
+}
+
+section.quo-pic {
+    height: 405px;
+    width: 100%;
+    background-image: url('assets/img/cytat.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.container > h2 {
+    font-size: 48pt;
+    margin-bottom: 30px;
+}
+
+.list > li {
+    line-height: 70pt;
+}
+
+.img-box1 {
+    background-image: url('assets/img/2016.jpg');
+    margin-right: 20px;
+}
+
+.img-box2 {
+    background-image: url('assets/img/2017.jpg');
+    margin-right: 20px;
+}
+
+.img-box3 {
+    background-image: url('assets/img/2018.jpg');
+}
+
+.img-box1, .img-box2, .img-box3 {
+    height: 270px;
+    width: 370px;
+    display: inline-block;
+    border-radius: 15px;
+}
+
+.skills-box {
+    width: 33.3333%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.skills-box:nth-of-type(even){
+    background-color: gray;
+}
+
+.background-image-with-text {
+    color: #fff;
+    font-style: italic;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+}
